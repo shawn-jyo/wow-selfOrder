@@ -1,0 +1,130 @@
+/*@charset "utf-8";*/
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #666666;
+	font-weight: bold;
+	font-size: small;
+}
+.style2 {
+	font-weight: bold;
+	font-size: 14px;
+}
+.style4 {
+	font-size: small;
+	color: #666666;
+}
+
+
+#contents {
+	font-size: 14px;
+	line-height: 1.6;
+	/*padding: 10px;*/
+	padding: 0px 0px 0px 100px; 
+	width: 720; 
+	text-align: left;
+}
+#contents h1 {
+	font-size: 18px;
+	font-weight: bold;
+	color:#FFFFFF;
+	background-image: url(../images/000_Red_100.gif);
+}
+#contents h1 image
+{
+    padding-right:10px;
+    padding-left:5px;
+}
+#contents h2 
+{
+	background-image: url("../images/red_maru_bg_white.gif");
+	background-repeat: no-repeat;
+	background-position: left center; 
+	padding-left: 15px;   
+	/*margin-top: 2.0em;
+	margin-bottom: 0.1em;*/
+	font-size: 16px;
+	font-weight: bold;
+	color:red;
+}
+
+.span_red_maru_black_string {
+	background-image: url("../images/red_maru_bg_white.gif");
+	background-repeat: no-repeat;
+	background-position: left center; 
+	padding-left: 15px;   
+	margin-left: 20px;
+}
+
+#contents p {
+	margin-left: 20px;
+}
+
+.large_style {
+	font-size: 20px;
+	font-weight: bold;
+	color:#666666;
+	margin-left: 20px;
+}
+
+#contents ol.num_list {
+	margin-left: 30px;
+	margin-top: 0.5em;
+	margin-bottom: 0.8em;
+	/*list-style-type: decimal!important;
+	list-style-type:none;
+	list-style-position:outside;*/
+}
+#contents ol.num_list li {
+	/*list-style-type: decimal;*/
+	list-style-type: none;
+	background-image: url("../images/black_small_rectangle.gif");
+	background-repeat: no-repeat;
+	background-position:left top;
+	padding-left: 15px;
+	vertical-align:text-top;
+}
+/*
+#contents ol.num_list {
+	font-size: 14px;
+	margin-left: 30px;
+	margin-top: 0.5em;
+	margin-bottom: 0.8em;
+	list-style-type: decimal!important;
+	list-style-position: outside;
+}
+#contents ol.num_list li {
+	list-style-type: decimal;
+}
+*/
+/*
+#contents ol.num_list ol.num_list {
+	font-size: 14px;
+	margin-left: 40px;
+	margin-top: 0.4em;
+	margin-bottom: 0.6em;
+	list-style-type: decimal-leading-zero!important;
+}
+#contents ol.num_list ol.num_list li {
+	list-style-type: decimal-leading-zero!important;
+}
+*/
+#contents li {
+	margin-bottom: 0.8em;
+}
+#contents ul
+{
+    list-style-position:outside;
+    list-style-image:url("../images/black_small_rectangle.gif");
+}
+#contents table tr td .text tr td .white b {
+	color: #FFF;
+}
+#contents .text tr td div u {
+	color: #F00;
+}

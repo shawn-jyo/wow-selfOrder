@@ -1,0 +1,24 @@
+body {
+
+font color:#666666;
+	background-color: #FFF;
+}
+
+a:link { color: #666666; text-decoration: underline } 
+a:visited { color: #666666; text-decoration: underline }
+a:hover { color: #FF7F1D; text-decoration: underline }
+a:active { color: #FF0000; text-decoration: underline }
+
+.hd { font-size: 10px; color: #666666; padding-left: 10px; }
+.copy { font-size: 12px; color: #666666; line-height: 18px; padding-top: 10px; padding-right: 10px; padding-left: 10px; padding-bottom: 10px; text-align:left; }
+
+.pan10 { font-size: 10px; color: #FF7800 }
+
+.px10 { font-size: 10px; color: #666666 }
+.px12 { font-size: 12px; line-height: 18px; color: #666666; padding-left: 40px; padding-right:13px; padding-bottom:20px }
+.px12n { font-size: 12px; line-height: 18px; color: #666666}
+.px14 { font-size: 14x; color: #666666 }
+
+.title { font-size: 14px; color: #766C46; padding-left: 35px; font-weight:bold}
+
+.margin { padding-top:5px; padding-bottom:20px }
